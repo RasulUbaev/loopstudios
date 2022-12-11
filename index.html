@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./style.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>loopstudios</title>
+</head>
+<body>
+
+    <header class="font-alata fixed xsm:w-full lg:w-full   h-20">
+        <div class="container ">
+            <nav class="nav xsm:flex xsm:items-center xsm:justify-between h-20">
+                <ul>
+                    <li><a href=""> <img src="./images/fotterlog.png" alt="logo"> </a> </li>
+                </ul>
+                <ul class="text-nav text-white xsm:hidden lg:block  lg:flex lg:gap-8 ">
+                    <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">About</a></li>
+                    <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Careers</a></li>
+                    <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Events</a></li>
+                    <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Products</a></li>
+                    <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Support</a></li>
+                </ul>
+                <div class="lg:hidden">
+                    <i class="text-white fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="font-josefin">
+
+        <div class="bg-bg-round bg-no-repeat h-screen bg-cover">
+            <div class="container pt-52">
+                <div class="border-2 w-1/2 h-76">
+                    <h1 class="uppercase text-white text-h1 p-10 ">Immersive experiences that deliver</h1>     
+                </div>
+            </div>
+        </div>
+
+        <section class="pt-32">
+            <div class="container grid grid-cols-2">
+                <div>
+                    <img src="./images/man3d.png" alt="man">
+                </div>
+                <div class="relative right-32 flex flex-col justify-end ">
+                    <div class="bg-white pt-24 pl-24">
+                        <h2 class="uppercase text-h2 pb-6 ">The leader in interactive VR</h2>
+                        <p class="font-alata text-pMain opacity-50">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="pt-24"> 
+            <div class="container">
+                <div class="flex justify-between">
+                    <h2 class="text-h2">OUR CREATIONS</h2>
+                    <button class="border-2 px-8 active:bg-black active:text-white">
+                        SEE ALL
+                    </button>
+                </div>
+                <ul class="pt-16 grid grid-cols-4 gap-12">
+                    <li class="relative"> <img src="./images/planeta.png" alt=""> 
+                    <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">DEEP EARTH</p>
+                    </li>
+                    <li class="relative">
+                        <img src="./images/son.png" alt="son">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-36">NIGHT ARCADE</p>
+                    </li>
+                    <li class="relative">
+                        <img src="./images/footballman.png" alt="soccer">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-36">SOCCER TEAM VR</p>
+                    </li>
+                    <li class="relative">
+                       <img src="./images/car.png" alt="car">
+                       <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">THE GRID</p> 
+                    </li>
+                    <li class="relative">
+                        <img src="./images/way.png" alt="ways">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-44">FROM UP ABOVE VR</p>
+                    </li>
+                    <li class="relative">
+                        <img src="./images/pocket.png" alt="pocket">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">POCKET BOREALIS</p>
+                    </li>
+                    <li class="relative">
+                        <img src="./images/curiocity.png" alt="curiosity">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">THE CURIOSITY</p>
+                    </li>
+                    <li class="relative">
+                        <img src="./images/fisheye.png" alt="eye">
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">MAKE IT FISHEYE</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-32 h-40 bg-black">
+        <div class="container">
+            <div class="pt-12 flex justify-between items-center">
+                <ul>
+                    <li><a href=""><img src="./images/fotterlog.png" alt="logo"></a> </li>
+                </ul>
+                <ul class="flex gap-8">
+                    <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt="fc"></a></li>
+                    <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://twitter.com/"><img src="./images/twitter.png" alt="tw"> </a></li>
+                    <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://br.pinterest.com/"><img src="./images/r.png" alt="r"></a></li>
+                    <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://www.instagram.com/"><img src="./images/insta.png" alt="ins"></a></li>
+                </ul>
+            </div>
+            <div class="pt-12 flex justify-between">
+                <ul class="text-white text-nav flex gap-8 ">
+                    <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">About</a></li>
+                    <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Careers</a></li>
+                    <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Events</a></li>
+                    <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Products</a></li>
+                    <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Support</a></li>
+                </ul>
+                <ul>
+                    <li class="text-white opacity-50">© 2021 Loopstudios. All rights reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
