@@ -9,29 +9,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./style.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>loopstudios</title>
 </head>
 <body class="overflow-x-hidden">
     
     <header class="container">
-        <div class="fixed z-20 font-alata flex justify-between h-20">
-            <nav class="nav xsm:flex xsm:items-center xsm:justify-between h-20">
-                <ul>
-                    <li><a href=""> <img src="./images/fotterlog.png" alt="logo"> </a> </li>
+        <div class="fixed font-alata flex justify-between h-20">
+                <ul id="menu" class="flex pt-8 flex-col justify-center items-center w-full fixed left-0 z-99 -translate-x-full transition duration-300 delay-150 bg-gray-900 text-white gap-8 justify-center h-96">
+                    <li class=""><a class="hover:text-red-200" href="">About</a></li>
+                    <li class=""><a class="hover:text-red-200" href="">Careers</a></li>
+                    <li class=""><a class="hover:text-red-200" href="">Events</a></li>
+                    <li class=""><a class="hover:text-red-200" href="">Products</a></li>
+                    <li class=""><a class="hover:text-red-200" href="">Support</a></li>
                 </ul>
-                <ul class="text-nav lg:pl-[670px] text-white xsm:hidden lg:block  lg:flex lg:gap-8 ">
+            <nav class="nav z-88 relative xsm:flex xsm:items-center xsm:justify-between h-20">
+                <ul class="absolute">
+                    <li><a class="" href=""> <img class="" src="./images/fotterlog.png" alt="logo"> </a> </li>
+                </ul>
+                <ul class="text-nav lg:pl-[750px] text-white xsm:hidden lg:block  lg:flex lg:gap-8 ">
                     <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">About</a></li>
                     <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Careers</a></li>
                     <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Events</a></li>
                     <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Products</a></li>
                     <li><a class="link relative after:block after:absolute  after:h-1 after:mt-2 after:w-0 after:bg-white after:active:w-full after:transition-all" href="">Support</a></li>
                 </ul>
-                <div class="xsm:pl-[190px] lg:hidden">
-                    <i class="text-white fa-solid fa-bars"></i>
+
+                <div id="burger" class="z-0 xsm:pl-px xsm:block text-white lg:hidden">
+                    <ion-icon name="menu-outline"></ion-icon>
+                    <!-- <ion-icon class="menux" name="close-outline"></ion-icon> -->
                 </div>
             </nav>
         </div>
+        
     </header>
 
     <main class="font-josefin">

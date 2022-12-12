@@ -82,7 +82,8 @@ tailwind.config = {
             },
 
             padding: {
-                'px': '200px',
+                'px': '320px',
+                'pxB': '300px',
               },
 
 
