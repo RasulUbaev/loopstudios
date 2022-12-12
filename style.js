@@ -74,8 +74,16 @@ tailwind.config = {
                     lineHeight: `2rem`,
                     fontWeight: `300`,
                 }],
+                xsmh1:[`2.5rem`, {
+                    lineHeight: `4rem`,
+                    fontWeight: `300`
+                }],
 
             },
+
+            padding: {
+                'px': '200px',
+              },
 
 
               backgroundImage: {
