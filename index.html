@@ -45,12 +45,12 @@
         </div>
 
         <section class="pt-32">
-            <div class="container grid grid-cols-2">
+            <div class="container grid lg:grid-cols-2">
                 <div>
                     <img src="./images/man3d.png" alt="man">
                 </div>
-                <div class="relative right-32 flex flex-col justify-end ">
-                    <div class="bg-white pt-24 pl-24">
+                <div class="relative lg:right-32 flex flex-col lg:items-start lg:justify-end ">
+                    <div class="bg-white xsm:pt-16 xsm:text-center lg:text-start lg:pt-24 lg:pl-24">
                         <h2 class="uppercase text-h2 pb-6 ">The leader in interactive VR</h2>
                         <p class="font-alata text-pMain opacity-50">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
                     </div>
@@ -60,57 +60,71 @@
         </section>
 
         <section class="pt-24"> 
-            <div class="container">
+            <div class="container ">
                 <div class="flex justify-between">
                     <h2 class="text-h2">OUR CREATIONS</h2>
-                    <button class="border-2 px-8 active:bg-black active:text-white">
+                    <button class="border-2 px-8 xsm:hidden lg:block active:bg-black active:text-white">
                         SEE ALL
                     </button>
                 </div>
-                <ul class="pt-16 grid grid-cols-4 gap-12">
-                    <li class="relative"> <img src="./images/planeta.png" alt=""> 
-                    <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">DEEP EARTH</p>
+                <ul class="pt-16 grid lg:grid-cols-4 gap-12">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105"> 
+                        <img class="xsm:w-full xsm:object-cover xsm:h-48 lg:h-full" src="./images/planeta.png" alt=""> 
+                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">DEEP EARTH</p>
                     </li>
-                    <li class="relative">
-                        <img src="./images/son.png" alt="son">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full xsm:object-cover  xsm:h-48 lg:h-full " src="./images/son.png" alt="son">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-36">NIGHT ARCADE</p>
                     </li>
-                    <li class="relative">
-                        <img src="./images/footballman.png" alt="soccer">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full xsm:object-cover xsm:object-top xsm:  xsm:h-48 lg:h-full " src="./images/footballman.png" alt="soccer">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-36">SOCCER TEAM VR</p>
                     </li>
-                    <li class="relative">
-                       <img src="./images/car.png" alt="car">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                       <img class="xsm:w-full  xsm:h-48 lg:h-full xsm:object-cover" src="./images/car.png" alt="car">
                        <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">THE GRID</p> 
                     </li>
-                    <li class="relative">
-                        <img src="./images/way.png" alt="ways">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full  xsm:h-48 lg:h-full xsm:object-cover" src="./images/way.png" alt="ways">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-44">FROM UP ABOVE VR</p>
                     </li>
-                    <li class="relative">
-                        <img src="./images/pocket.png" alt="pocket">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full  xsm:h-48 lg:h-full xsm:object-cover xsm:object-top" src="./images/pocket.png" alt="pocket">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">POCKET BOREALIS</p>
                     </li>
-                    <li class="relative">
-                        <img src="./images/curiocity.png" alt="curiosity">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full  xsm:h-48 lg:h-full xsm:object-cover xsm:object-top" src="./images/curiocity.png" alt="curiosity">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">THE CURIOSITY</p>
                     </li>
-                    <li class="relative">
-                        <img src="./images/fisheye.png" alt="eye">
+                    <li class="relative xsm:w-full xsm:h-48 lg:h-full duration-[0.1s] hover:scale-105">
+                        <img class="xsm:w-full  xsm:h-48 lg:h-full xsm:object-cover xsm:object-top" src="./images/fisheye.png" alt="eye">
                         <p class="absolute opacity-50 text-white text-pImg bottom-8 left-8 w-32">MAKE IT FISHEYE</p>
                     </li>
+                
+                    <button class="border-2 xsm:mx-auto px-4 xsm:py-4 xsm:tracking-widest xsm:w-1/2 xsm:block lg:hidden active:bg-black active:text-white">
+                            SEE ALL
+                    </button>
                 </ul>
             </div>
         </section>
     </main>
 
-    <footer class="mt-32 h-40 bg-black">
+    <footer class="mt-32 lg:h-40 bg-black xsm:96">
         <div class="container">
-            <div class="pt-12 flex justify-between items-center">
-                <ul>
-                    <li><a href=""><img src="./images/fotterlog.png" alt="logo"></a> </li>
+            <div class="pt-12 lg:flex lg:justify-between items-center">
+                <ul class="">
+                    <li class=""><a class="" href=""><img class="xsm:mx-auto xsm:pb-8 lg:pb-0" src="./images/fotterlog.png" alt="logo"></a> </li>
                 </ul>
-                <ul class="flex gap-8">
+
+                <ul class="text-white xsm:block lg:hidden text-nav xsm:text-center xsm:flex xsm:flex-col xsm:gap-8">
+                    <li><a  class="link xsm:mx-auto relative" href="">About</a></li>
+                    <li><a class="link relative " href="">Careers</a></li>
+                    <li><a class="link relative " href="">Events</a></li>
+                    <li><a class="link relative " href="">Products</a></li>
+                    <li><a class="link relative " href="">Support</a></li>
+                </ul>
+
+                <ul class="xsm:justify-center xsm:pt-8 lg:pt-0 flex gap-8">
                     <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt="fc"></a></li>
                     <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://twitter.com/"><img src="./images/twitter.png" alt="tw"> </a></li>
                     <li><a class="relative after:mt-2 after:absolute after:h-1 after:block after:w-0 after:bg-white after:active:w-full" target="_blank" href="https://br.pinterest.com/"><img src="./images/r.png" alt="r"></a></li>
@@ -118,14 +132,14 @@
                 </ul>
             </div>
             <div class="pt-12 flex justify-between">
-                <ul class="text-white text-nav flex gap-8 ">
+                <ul class="text-white xsm:hidden lg:block text-nav lg:flex lg:gap-8 ">
                     <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">About</a></li>
                     <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Careers</a></li>
                     <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Events</a></li>
                     <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Products</a></li>
                     <li><a class="link relative cursor-pointer after:block after:absolute after:mt-2  after:h-1 after:w-0 after:bg-white after:active:w-full " href="">Support</a></li>
                 </ul>
-                <ul>
+                <ul class="xsm:mx-auto lg:mx-0">
                     <li class="text-white opacity-50">© 2021 Loopstudios. All rights reserved.</li>
                 </ul>
             </div>
